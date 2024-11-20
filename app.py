@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # Ollama server details
 OLLAMA_SERVER = "http://127.0.0.1:11434"
-MODEL_NAME = "qwen2.5-coder:latest"
+MODEL_NAME = "qwen2.5-coder:7b-instruct"
 
 # Database connection details
 DB_CONFIG = {
